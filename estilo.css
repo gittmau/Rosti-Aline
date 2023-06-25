@@ -15,7 +15,7 @@ a{text-decoration: none;}
 #social-topo > a{margin: 0px 5px;text-decoration: none;}
 #social-topo > a img{width:30px}
 
-#logo{font-family: 'Tilt Prism', cursive;font-size: 1.5em;margin: 0px 5px;color: #2F0E05;font-weight: 900;text-transform: capitalize;}
+#logo{font-family: 'Tilt Prism', cursive;font-size: 1.5em;margin: 0px 5%;color: #2F0E05;font-weight: 900;text-transform: capitalize;}
 
 #capa{width: 100%;height: 350px;background-image: url(capa-rosti.jpg);background-size:cover;background-position: center;}
 
@@ -35,7 +35,6 @@ a{text-decoration: none;}
 
 .sabores-rosti > p{color: #333}
 
-
 footer{width: 100%;background:#0D0304;display: flex;flex-direction: column;align-items: center;}
 
 
@@ -47,6 +46,7 @@ footer{width: 100%;background:#0D0304;display: flex;flex-direction: column;align
 #endereco > p{margin: 10px 0px}
 
 article{padding: 10px;font-size: 0.9em;text-align: center;}
+article > a{color: #222}
 
 
 
@@ -70,7 +70,7 @@ article{padding: 10px;font-size: 0.9em;text-align: center;}
 
    #secao-1{display: flex;flex-wrap: wrap;justify-content:space-evenly}
 
-   .sabores-rosti{width:280px;height:340px;padding:10px;margin-top: 20px}
+   .sabores-rosti{width:280px;height:380px;padding:10px;margin-top: 20px}
 
    .sabores-rosti > p{margin-top: 10px}
 
@@ -148,9 +148,6 @@ article{padding: 10px;font-size: 0.9em;text-align: center;}
 
 
 @media(min-width:1360px){
-
- 
-
 
 }
 
