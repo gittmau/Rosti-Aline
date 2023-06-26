@@ -15,11 +15,21 @@ a{text-decoration: none;}
 #social-topo > a{margin: 0px 5px;text-decoration: none;}
 #social-topo > a img{width:30px}
 
-#logo{font-family: 'Tilt Prism', cursive;font-size: 1.5em;margin: 0px 5%;color: #2F0E05;font-weight: 900;text-transform: capitalize;}
+#logo{font-family: 'Tilt Prism', cursive;font-size: 1em;margin: 0px 5%;color: #2F0E05;font-weight: 900;text-transform: capitalize;}
 
-#capa{width: 100%;height: 350px;background-image: url(capa-rosti.jpg);background-size:cover;background-position: center;}
+#capa{width: 100%;height:450px;background-image: url(capa-2i.jpg);background-size:cover;background-position: center;display: flex;flex-direction: column;justify-content: center;align-items: center;background-attachment: fixed;}
 
-#titulo-sabores{text-align: center;margin: 50px 0px;color: #2f0e05}
+.conteudo-capa{width:100%;text-align: center;color: #f4f4f4;border: 0px solid #fff;margin-top: 50px;}
+
+.conteudo-capa h2, p{opacity: 0.5}
+
+.conteudo-capa > p{margin-top: 10px}
+
+button{width:150px;padding: 10px;cursor: pointer;border: none;background: transparent;border: 1px solid #fff;color: #fff;border-radius:50px;}
+
+button:hover{background:#4A2314;transition: 1s}
+
+#titulo-sabores{text-align: center;margin: 50px 0px;color: #2f0e05;}
 
 
 /*Seção 1 ---------------------------------------*/
@@ -33,15 +43,15 @@ a{text-decoration: none;}
 
 .sabores-rosti > h2{color: #333;margin-top: 20px}
 
-.sabores-rosti > p{color: #333}
+.sabores-rosti > p{color: #000}
 
-footer{width: 100%;background:#0D0304;display: flex;flex-direction: column;align-items: center;}
+footer{width: 100%;height:px;background:#0D0304;display: flex;flex-direction: column;align-items: center;justify-content: center}
 
 
 #contato > a{color: #fff;text-decoration: underline;display: block;}
 
 
-#endereco,#social-rodape,#contato{margin: 25px 0px;width: 290px;font-size:1.5em;color: #fff;text-align:center;}
+#endereco,#social-rodape,#contato{margin: 25px 0px;width: 290px;font-size:1.5em;color: #fff;text-align:center;padding: 10px;border-radius: 15px;background:}
 
 #endereco > p{margin: 10px 0px}
 
@@ -57,8 +67,11 @@ article > a{color: #222}
    #logo{margin: 0px 5%}
 
 	.sabores-rosti{width:340px}
+}
 
+@media(min-width:500px){
 
+   .conteudo-capa > h2{font-size: 2em}
 }
 
 
@@ -72,10 +85,12 @@ article > a{color: #222}
 
    .sabores-rosti{width:280px;height:380px;padding:10px;margin-top: 20px}
 
-   .sabores-rosti > p{margin-top: 10px}
+   .sabores-rosti > p{margin-top: 10px;font-family:;font-size: 0.9em}
 
-   footer{flex-direction: row;flex-wrap: wrap;justify-content:space-evenly;height: 350px}
+   #texto-menor{font-size:}
 
+   footer{height:250px;flex-direction: row}
+   
 
    #endereco,#social-rodape,#contato{width:150px;font-size: 1em}  
 
@@ -84,9 +99,16 @@ article > a{color: #222}
 
 @media(min-width:760px){
 
+   #logo{font-size: 1.5em}
+
 	.sabores-rosti{width:350px;height:350px}
 
    #endereco,#social-rodape,#contato{width:220px;}
+
+   .conteudo-capa{width:60%;border: 1px #fff;text-align: left}
+
+   .conteudo-capa:nth-child(2){width:}
+   
 }
 
 
@@ -115,11 +137,17 @@ article > a{color: #222}
    
    #capa{height:650px;}
 
+   #titulo-sabores{font-size:3em}
+
    #secao-1{width: 100%;}
 
    .sabores-rosti{width:360px;margin-top: 0}
 
    #endereco,#contato{text-align: left;}
+
+   .conteudo-capa{width:70%}
+
+   .conteudo-capa > h2{font-size:2.5em;}
 
    article{float: right;margin: 0px 2%}
 }
@@ -127,27 +155,29 @@ article > a{color: #222}
 @media(min-width:1037px){
     
    .sabores-rosti{width:250px;}
-
-    
-   
-
-
 }
 
 
 @media(min-width:1200px){
 
+   #titulo-sabores{}
+
 	#secao-1{width:95%;}
 
    .sabores-rosti{width:250px;height: 380px}
 
-    #social-rodape > a img{width: ;}
+   .conteudo-capa > h2{font-size:3.5em;}
+
+   #social-rodape > a img{width: ;}
 
    
 }
 
 
 @media(min-width:1360px){
+
+ 
+
 
 }
 
