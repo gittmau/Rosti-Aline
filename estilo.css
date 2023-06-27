@@ -185,11 +185,8 @@ article > a{color: #222}
 }
 
 
-@media(min-width:1360px){
-
- 
-
-
+@media(min-width:1366px){
+   #secao-1{width:1349px;}
 }
 
 
