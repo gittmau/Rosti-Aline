@@ -62,10 +62,14 @@ footer{width: 100%;height:px;background:#0D0304;display: flex;flex-direction: co
 
 #endereco,#social-rodape,#contato{margin: 25px 0px;width: 290px;font-size:1em;color: #fff;text-align:center;padding: 10px;border-radius: 15px;background:}
 
+#contato{border: 1px solid #fff;width:200px}
+
+#contato > img{padding-top: 10px}
+
 #endereco > p{margin: 10px 0px}
 
 article{padding: 10px;font-size: 0.8em;text-align: center;}
-article > a{color: #222}
+article > a{color: #555}
 
 
 
@@ -103,7 +107,11 @@ article > a{color: #222}
    footer{height:250px;flex-direction: row;justify-content:space-evenly}
    
 
-   #endereco,#social-rodape,#contato{width:200px;font-size: 1em;text-align: left;}  
+   #endereco,#social-rodape,#contato{width:160px;font-size: 1em;text-align: left;} 
+
+   #contato{width:240px;display: flex;gap: 10px}
+
+   #contato > img{padding-top: 0px} 
 
 }
 
@@ -114,7 +122,11 @@ article > a{color: #222}
 
 	.sabores-rosti{width:350px;height:350px}
 
-   #endereco,#social-rodape,#contato{width:220px;}
+   footer{justify-content: center}
+
+   #endereco,#social-rodape,#contato{width:170px;}
+
+   #contato{width:270px;}
 
    .conteudo-capa{width:85%;border: 1px #fff;text-align: left}
 
@@ -154,6 +166,8 @@ article > a{color: #222}
 
    .sabores-rosti{width:360px;margin-top: 0}
 
+    #endereco,#social-rodape,#contato{width:260px;}
+
    #endereco,#contato{text-align: left;}
 
    .conteudo-capa{width:70%}
@@ -185,8 +199,23 @@ article > a{color: #222}
 }
 
 
-@media(min-width:1366px){
+@media(min-width:1366px){ 
+
    #secao-1{width:1349px;}
+
+   #endereco,#social-rodape,#contato{width:320px;}
+
+    #contato{width:250px;}
+}
+
+
+@media(min-width:1920px){
+
+   #endereco,#social-rodape,#contato{width:420px;}
+
+   #contato{width:250px;}
+
+
 }
 
 
@@ -200,5 +229,7 @@ article > a{color: #222}
 	#secao-1{width:1282px;margin: 0 auto;}
 
    .sabores-rosti{width:250px}
+
+    
 }
 
